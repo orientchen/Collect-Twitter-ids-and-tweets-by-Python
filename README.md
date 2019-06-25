@@ -15,3 +15,6 @@ first cd to the directory of the python project.
 then enable the venv with venv\Scripts\activate.bat (this is the case when you use pycharm in a Windows system, for macbook, use source venv/bin/activate)
 python get_followers(2018-3-27).py -s aTwitterAccount -d -3
 
+Step 4: Extract the user ids from json file by running the code followers_ids_from_json.py.
+
+Step 5: Run get_tweets.py to collect tweets.
