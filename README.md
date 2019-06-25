@@ -1,4 +1,4 @@
-# Social-Network-Analysis-and-Game-Theory
+#Collect-Twitter-ids-and-tweets-by-Python
 
 This repo is to share the code I used for the projects related to social network analysis and game theory. If you find this code useful in your research, please consider citing:
 
