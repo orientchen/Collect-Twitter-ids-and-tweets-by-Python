@@ -5,8 +5,7 @@ import glob
 import json
 import time
 
-# TWEETS_DIR = 'C:/Users/jundong.chen/Documents/tweets-grouped/tweets-group2'
-# TWITTER_USERS_DIR_GROUPED = 'C:/Users/jundong.chen/Documents/twitter-users-grouped/twitter-users-group1'
+
 
 
 # if not os.path.exists(TWEETS_DIR):
@@ -116,18 +115,17 @@ def find_csv_filenames( path_to_dir, suffix=".csv" ):
 if __name__ == '__main__':
 
     for i in range(1, 25):
-        TWEETS_DIR = '/Users/orientchen/PycharmProjects/TwitterBotAnalyzer/tweets'
-        #TWEETS_DIR = TWEETS_DIR_1stPART + str(i)
+        TWEETS_DIR = '/Users/xxxxxx/PycharmProjects/TwitterBotAnalyzer/tweets'
+        
         if not os.path.exists(TWEETS_DIR):
             os.makedirs(TWEETS_DIR)
-            # TWITTER_USERS_DIR_GROUPED = 'C:/Users/jundong.chen/Documents/twitter-users-grouped/twitter-users-group1'
-        TWITTER_FOLLOWERS_DIR_GROUPED_1stPART = '/Users/orientchen/PycharmProjects/TwitterBotAnalyzer/twitter-followers-grouped/'
-        #slash = '\\'
+      
+        TWITTER_FOLLOWERS_DIR_GROUPED_1stPART = '/Users/xxxxxx/PycharmProjects/TwitterBotAnalyzer/twitter-followers-grouped/'
+        
         TWITTER_FOLLOWERS_DIR_GROUPED_FOLDER = 'twitter-followers-group' + str(i)
         TWITTER_FOLLOWERS_DIR_GROUPED = TWITTER_FOLLOWERS_DIR_GROUPED_1stPART + TWITTER_FOLLOWERS_DIR_GROUPED_FOLDER
 
-        #with open('2735591.json') as twitter_file:
-        #    json_data = json.load(twitter_file)
+        
         filenames = find_csv_filenames(TWITTER_FOLLOWERS_DIR_GROUPED)
         for name in filenames:
             # print name
