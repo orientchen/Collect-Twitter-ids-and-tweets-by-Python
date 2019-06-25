@@ -6,13 +6,12 @@ import glob
 
 
 for i in range(0, 116):
-    #TWITTER_USERS_DIR_GROUPED_1stPART = '/Users/orientchen/Research/TwitterHarvester/TwitterDataFromDSULaptop/twitter-users-grouped/'
-    TWITTER_USERS_DIR_GROUPED_1stPART = '/Users/orientchen/Research/TwitterBotAnalyzer/FullExperiment/Twitter-users-grouped/'
+    TWITTER_USERS_DIR_GROUPED_1stPART = '/Users/XXXXXXXXXX/Twitter-users-grouped/'
 
     TWITTER_USERS_DIR_GROUPED_FOLDER = 'twitter-users-group' + str(i)
     TWITTER_USERS_DIR_GROUPED = TWITTER_USERS_DIR_GROUPED_1stPART + TWITTER_USERS_DIR_GROUPED_FOLDER
 
-    TWITTER_FOLLOWERS_DIR_GROUPED_1stPART = '/Users/orientchen/Research/TwitterBotAnalyzer/FullExperiment/Twitter-followers-grouped/'
+    TWITTER_FOLLOWERS_DIR_GROUPED_1stPART = '/Users/XXXXXXXXXX/Twitter-followers-grouped/'
     slash = '/'
     TWITTER_FOLLOWERS_DIR_GROUPED_FOLDER = 'twitter-followers-group' + str(i)
     TWITTER_FOLLOWERS_DIR_GROUPED = TWITTER_FOLLOWERS_DIR_GROUPED_1stPART + slash + TWITTER_FOLLOWERS_DIR_GROUPED_FOLDER
