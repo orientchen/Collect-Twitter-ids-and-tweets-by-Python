@@ -8,12 +8,11 @@ booktitle={2017 IEEE 16th International Symposium on Network Computing and Appli
 title={Sentiment analysis of the correlation between regular tweets and retweets}, 
 year={2017},  
 pages={1-5}, 
-doi={10.1109/NCA.2017.8171354}, 
-ISSN={}, 
+doi={10.1109/NCA.2017.8171354},  
 month={Oct},}
 
 
-file get_followers(2018-3-27).py is a python program which can be used to crawl twitter account and collect twitter user ids.
+File get_followers(2018-3-27).py is a python program which can be used to crawl twitter account and collect twitter user ids.
 This code was originallly posted on http://mark-kay.net/2014/08/15/network-graph-of-twitter-followers
 Later this website is not available.
 The code I posted here is modified based on that code.
