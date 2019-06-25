@@ -20,7 +20,7 @@ urllib3.disable_warnings()
 ###each file contains cached data for a twitter user including friend and follower counts and
 ###a list of follower IDs (up to a maximum of 5000 follower IDs can be queried from the API).
 
-FOLLOWING_DIR = 'C:/Users/jundong.chen/Documents/Following'
+FOLLOWING_DIR = 'XXXXXXXXXXXX'
 MAX_FRIENDS = 200
 FRIENDS_OF_FRIENDS_LIMIT = 200
 
@@ -177,7 +177,6 @@ def get_follower_ids(centre, max_depth=1, current_depth=0, taboo_list=[]):
     return taboo_list
 
 #get_follower_ids('TEDxSingapore',1, 3 )
-#get_follower_ids('orientchen1978',1, 3 )
 if __name__ == '__main__':
      ap = argparse.ArgumentParser()
      ap.add_argument("-s", "--screen-name", required=True, help="Screen name of twitter user")
